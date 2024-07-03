@@ -1,0 +1,183 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --dark-color: #19283f;
+    --green-color:#33d1cc;
+    --red-color:#ff3150;
+    --yellow-color:#ffc400;
+    --section-color:#eff7fa;
+}
+
+.navbar{
+    background-color: #19283f;
+}
+
+.nav-link{    color: aliceblue !important;
+}
+
+ 
+.nav-item {color:#33d1cc !important;}
+
+.fa-robot{color: aliceblue; font-size: 3rem;}
+.fa-bars{color: aliceblue !important;}
+.navbar .navbar-toggler{color:azure; }
+.search{color:#33d1cc; font-size: 20px; border-left:1px solid #33d1cc;}
+.landing{
+    height: 92vh;
+    background-color: #19283f;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-btn{background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+    }
+
+
+ 
+.icons{
+    height: 200px;
+    
+
+} 
+.num{
+    font-size: 12rem;
+    color:#eff7fa;
+}
+.icons i{
+    left: 50%;
+    transform: translateX(-50%);
+}
+  .icons  .pin{
+    color: #33d1cc;      
+    }
+
+.text h2{
+    color: #ffc400;
+}
+
+.proparities{
+    background-color: #eff7fa;
+    
+}
+
+.proparities ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.proparities ul .active {
+    background-color: #ff3150;
+    color: #ffc400;
+}
+.proparities ul li :not(.active):hover{
+    color: #ff3150;
+}
+
+.row .box{
+    background: #eff7fa;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.clk a{
+    background-color: #ff3150;
+    color: #ffc400;
+    padding: 1rem 2rem;
+}
+
+.clk a :hover{
+    color: #eff7fa;
+}
+
+.tail{
+    
+}
+.lab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.team{
+    background-color: #eff7fa;
+   
+}
+.describe h2{
+    color: #ffc400;
+    font-weight: bold;
+}
+.describe p{ font-weight: bold;}
+.card h4{
+    background-color: #33d1cc;
+}
+.start{
+    background-color: #19283f;
+}
+.start h2{
+    color: azure;
+    font-weight: bold;
+}
+.start a, .start p{
+    font-weight: bold;
+}
+
+.read h2 ,.read p, .read a{
+    font-weight: bold;
+}
+.subscribe{
+    background-color: #ffc400;
+}
+.subscribe h2{
+    color: black;
+}
+.subscribe .form-control,.subscribe .form-control:active{
+    background-color: transparent;
+    
+    border-top: #eff7fa;
+    
+}
+.subscribe .form-control::placeholder{
+    color: #eff7fa;
+    font-weight: bolder;
+}
+.subscribe a{
+    background-color:#19283f;
+}
+.subscribe p{
+    font-weight: bold;
+}
+
+.end{
+    background-color: #19283f;
+}
+p .green{
+    color: #33d1cc;
+}
+p .yellow{
+    color: #ffc400;
+}
+.end p,.end>p{
+    color: rgba(255,255,255,.5);
+    font-weight: bold;
+}
+.end h3{
+    color: aliceblue;
+}
+
+.end a{
+    width: 100%;
+    font-weight: bolder;
+}
+.end i{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
